@@ -24,7 +24,7 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 
 # LLM
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile"
+    model="openai/gpt-oss-120b"
 )
 
 # State
@@ -144,7 +144,7 @@ app = graph.compile(checkpointer=checkpointer)
 if __name__ == "__main__":
     config = {
         "configurable": {
-            "thread_id": "user_rajat"
+            "thread_id": "user_id"
         }
     }
 

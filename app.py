@@ -492,3 +492,7 @@ if generate:
         with info_col:
             st.markdown(f"<div class='save-bar'>📁 Auto-saved → <code>travel_plans/{filename}</code></div>",
                         unsafe_allow_html=True)
+
+
+#to activate env, .\langgraph_env3\Scripts\Activate.ps1
+#in app.py run: streamlit run app.py
