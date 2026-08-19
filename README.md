@@ -19,15 +19,15 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **SafarIO** is an end-to-end, production-grade **multi-agent AI framework** that automates the entire travel-planning workflow. It orchestrates a team of specialized AI agents — built on **LangGraph** — to fetch **live flight data**, perform **intelligent hotel discovery** via real-time web search, and synthesize everything into a **personalized, detailed itinerary**, all powered by **Groq's ultra-fast Llama 3.3 70B** inference and backed by **stateful PostgreSQL memory**.
 
-> 💡 Think of it as your own AI travel agency — one that never sleeps, never forgets your preferences, and responds in milliseconds.
+>  Think of it as your own AI travel agency — one that never sleeps, never forgets your preferences, and responds in milliseconds.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Icon | Feature | Description |
 |:---:|---|---|
@@ -42,7 +42,7 @@
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 SafarIO follows a **deterministic, checkpointed agent pipeline** — every step of the journey (pun intended) is tracked, stateful, and recoverable.
 
@@ -75,7 +75,7 @@ flowchart TD
     style Pipeline fill:#F8FAFC,stroke:#4F46E5,stroke-width:1px
 ```
 
-### 🔎 Pipeline Walkthrough
+###  Pipeline Walkthrough
 
 1. **User Request** → submitted through the Streamlit chat interface.
 2. **LangGraph Engine** → routes the request through the agent state graph.
@@ -87,7 +87,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+##  Tech Stack & Dependencies
 
 | Layer | Technology / Tool | Purpose |
 |---|---|---|
@@ -100,7 +100,7 @@ flowchart TD
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 multi_agent_system_demo/
@@ -117,7 +117,7 @@ multi_agent_system_demo/
 
 ---
 
-## 🚀 Quickstart Guide
+##  Quickstart Guide
 
 ### 1️⃣ Prerequisites
 
@@ -159,12 +159,12 @@ AVIATIONSTACK_KEY=your_aviationstack_api_key
 
 | Mode | Command | Description |
 |---|---|---|
-| 💻 **CLI** | `python main.py` | Run the agent workflow from the terminal |
-| 🌐 **Web Dashboard** | `streamlit run app.py` | Launch the interactive Streamlit UI |
+|  **CLI** | `python main.py` | Run the agent workflow from the terminal |
+|  **Web Dashboard** | `streamlit run app.py` | Launch the interactive Streamlit UI |
 
 ---
 
-## 🌐 Live Deployment
+##  Live Deployment
 
 SafarIO is deployed on **Render**, running as a containerized Web Service alongside a fully managed **Render PostgreSQL** instance.
 
@@ -176,7 +176,7 @@ SafarIO is deployed on **Render**, running as a containerized Web Service alongs
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Core multi-agent pipeline (Flight → Hotel → Itinerary)
 - [ ] Weather-aware itinerary adjustments
@@ -186,7 +186,7 @@ SafarIO is deployed on **Render**, running as a containerized Web Service alongs
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To contribute:
 
@@ -203,6 +203,6 @@ Contributions are welcome! To contribute:
 
 **Made with ❤️ and autonomous agents**
 
-⭐ *If you find SafarIO useful, consider giving the repo a star!* ⭐
+ *If you find SafarIO useful, consider giving the repo a star!* 
 
 </div>
